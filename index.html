@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Science, Basically</title>
+    <meta
+      name="description"
+      content="Science, Basically is a polished science podcast hosted by Maya Chen. Listen to the episode 'How Do You Turn a Cloud of Dots into a Statue?'"
+    />
+    <meta property="og:title" content="Science, Basically" />
+    <meta
+      property="og:description"
+      content="Big research ideas, made understandable. Hosted by Maya Chen."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/Gemini_Generated_Image_522jxo522jxo522j.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">Science Podcast</p>
+          <h1>Science, Basically</h1>
+          <p class="hero__lede">
+            Big research papers, human explanations, and just enough curiosity to make intimidating
+            ideas feel fun.
+          </p>
+
+          <div class="hero__meta">
+            <div>
+              <span class="meta-label">Hosted by</span>
+              <strong>Maya Chen</strong>
+            </div>
+            <div>
+              <span class="meta-label">Latest episode</span>
+              <strong>How Do You Turn a Cloud of Dots into a Statue?</strong>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#listen">Listen Now</a>
+            <a
+              class="button button--ghost"
+              href="out/science-basically-poisson-surface-reconstruction/science-basically-poisson-surface-reconstruction-final.mp3"
+              download
+            >
+              Download MP3
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__art">
+          <div class="cover-card">
+            <img
+              src="assets/Gemini_Generated_Image_522jxo522jxo522j.png"
+              alt="Science, Basically podcast cover art"
+            />
+          </div>
+          <div class="pulse pulse--one"></div>
+          <div class="pulse pulse--two"></div>
+        </div>
+      </header>
+
+      <main>
+        <section class="listen" id="listen">
+          <div class="section-heading">
+            <p class="eyebrow">Episode 01</p>
+            <h2>How Do You Turn a Cloud of Dots into a Statue?</h2>
+          </div>
+
+          <div class="listen-grid">
+            <article class="player-card">
+              <div class="player-card__header">
+                <div>
+                  <p class="meta-label">Now playing</p>
+                  <h3>Poisson Surface Reconstruction</h3>
+                </div>
+                <span class="runtime" id="runtime-badge">Loading runtime...</span>
+              </div>
+
+              <p class="player-card__summary">
+                Maya and Dr. Alex Romero unpack how noisy 3D point clouds become smooth digital
+                surfaces, and why a famous global reconstruction method still matters.
+              </p>
+
+              <audio
+                id="episode-audio"
+                controls
+                preload="metadata"
+                src="out/science-basically-poisson-surface-reconstruction/science-basically-poisson-surface-reconstruction-final.mp3"
+              ></audio>
+
+              <div class="player-links">
+                <a href="out/science-basically-poisson-surface-reconstruction/science-basically-poisson-surface-reconstruction-final.mp3" download>
+                  Final mix
+                </a>
+                <a href="out/science-basically-poisson-surface-reconstruction/science-basically-poisson-surface-reconstruction-speech.mp3" download>
+                  Voice-only
+                </a>
+              </div>
+            </article>
+
+            <aside class="details-card">
+              <div class="detail">
+                <span class="meta-label">Topics</span>
+                <strong>Computational geometry, 3D scanning, digital preservation</strong>
+              </div>
+              <div class="detail">
+                <span class="meta-label">Guest</span>
+                <strong>Dr. Alex Romero</strong>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="highlights">
+          <div class="section-heading">
+            <p class="eyebrow">Why Listen</p>
+            <h2>Complicated ideas without the academic fog</h2>
+          </div>
+
+          <div class="highlight-grid">
+            <article>
+              <h3>Clear framing</h3>
+              <p>The episode starts with a simple question and builds the math only as far as it helps.</p>
+            </article>
+            <article>
+              <h3>Actual relevance</h3>
+              <p>From cultural heritage to graphics pipelines, the applications stay grounded in the real world.</p>
+            </article>
+            <article>
+              <h3>Good guest rhythm</h3>
+              <p>Host questions stay short, and the answers give enough detail without turning into a lecture.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="about-show">
+          <div class="about-show__panel">
+            <p class="eyebrow">About The Show</p>
+            <h2>For people who like learning, but not being talked down to.</h2>
+            <p>
+              Science, Basically is built around a simple premise: research gets more interesting
+              when somebody translates it with care. Each episode takes a paper, a method, or a
+              scientific idea that normally lives behind jargon and turns it into a conversation.
+            </p>
+          </div>
+          <div class="about-show__visual">
+            <img
+              src="assets/Gemini_Generated_Image_5sx8k25sx8k25sx8.png"
+              alt="Illustration of science equipment and the Science, Basically podcast title"
+            />
+          </div>
+        </section>
+
+        <section class="transcript" id="transcript">
+          <div class="section-heading">
+            <p class="eyebrow">Transcript</p>
+            <h2>Episode script</h2>
+          </div>
+
+          <div class="transcript-toolbar">
+            <button id="toggle-transcript" class="button button--ghost" type="button">Collapse Transcript</button>
+          </div>
+
+          <div id="transcript-content" class="transcript-content">
+            <p class="transcript-loading">Loading transcript...</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="site.js" type="module"></script>
+  </body>
+</html>
